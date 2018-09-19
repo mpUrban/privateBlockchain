@@ -1,4 +1,4 @@
-# Project 2 -  Private Blockchain
+# js-based Private Blockchain
 
 ## Files:
 
@@ -15,13 +15,9 @@ chaindata_B2inv - contains 10 blocks where block 2 is invalid <br>
 
 ## Dependencies:
 
-LevelDB
-crypto-js
+* LevelDB
+* crypto-js
 
-## Submission number: 3
+## ToDo
 
-## Submission changes
-
-Modified validateChain() : <br>
-* moved final error log read out of loop
-* forced validateBlock() call to resolve
+validateChain() asynchronous programming needs checking
